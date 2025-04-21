@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router";
 import { CartContext } from "../providers/Context";
 
 const Navbar = () => {
-  const {cart, setCart} = useContext(CartContext);
+  const { cart } = useContext(CartContext);
   return (
     <div className="navbar p-0 bg-base-100 shadow-sm rounded-xl mt-3">
       <div className="navbar-start pl-3">
